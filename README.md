@@ -1,4 +1,4 @@
-# Data-Engineering-Bootcamp - How Bootcamps
+# Data Engineering Bootcamp - How Bootcamps
 
 ![image](https://user-images.githubusercontent.com/57838698/121826223-f9996700-cc8c-11eb-80a7-0ae13c21b5a5.png)
 
