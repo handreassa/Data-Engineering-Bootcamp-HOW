@@ -1,0 +1,4 @@
+FROM httpd
+#COPIA ARQUIVOS DA MAQUINA PARA O CONTAINER NO BUILD
+COPY ./web/ /usr/local/apache2/htdocs/
+EXPOSE 80
