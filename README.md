@@ -7,7 +7,7 @@ Materiais do bootcamp de Engenharia de dados (How Bootcamps - https://howedu.com
 ## Engenharia de dados
 O que é um engenheiro de dados? Como criar uma caixa de ferramentas para ingestão e processamento de dados para nos atender no dia a dia independente da nossa profissão. Overview da profissão de engenharia de dados e diferenças para ciência de dados e business intelligence.
 
-Módulo 1: Fundamentos de Engenharia de Dados
+Módulo 1: Fundamentos de Engenharia de Dados 
 Módulo 2: Fundamentos de Ingestão de Dados
 
 ## Fundamentos de ingestão de dados
@@ -41,7 +41,7 @@ Módulo 14: Mensageria
 Módulo 15: Redshift e Spectrum
 Módulo 16: Spark no Databricks
 Módulo 17: Spark Streaming no Databricks
-Módulo 18: Airflow
+Módulo 18: Airflow 
 Módulo 19: Terraform e Cloudformation
 Módulo 20: Data Engineering Portfolio
 
