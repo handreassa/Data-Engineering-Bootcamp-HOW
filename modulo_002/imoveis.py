@@ -111,3 +111,4 @@ while qtd_imoveis > df.shape[0]:
 df
 # %%
 df.to_csv("banco_de_imoveis.csv", sep=';', index=False)
+# %%
