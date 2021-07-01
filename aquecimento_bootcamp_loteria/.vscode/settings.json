@@ -1,8 +1,0 @@
-{
-    "python.terminal.launchArgs": [
-        "-m",
-        "IPython",
-        "--no-autoindent",
-    ],
-    "python.pythonPath": "C:\\Users\\handr\\anaconda3\\python.exe"
-}

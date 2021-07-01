@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\handr\\Python\\Data-Engineering-Bootcamp-HOW\\modulo_002\\.venv\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\handr\\Python\\Data-Engineering-Bootcamp-HOW\\modulo_002\\.venv\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local"
 }
