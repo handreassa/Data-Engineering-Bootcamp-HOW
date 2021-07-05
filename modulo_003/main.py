@@ -6,13 +6,12 @@ import time
 cep = sys.argv[1]
 
 if cep:
-    driver = webdriver.Chrome(
-        executable_path=r"C:\Users\handr\Python\Data-Engineering-Bootcamp-HOW\modulo_003\src\chromedriver.exe"
-    )
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    driver = webdriver.Chrome(options=options)
-    time.sleep(10)
+    driver = webdriver.Chrome(
+        options=options, executable_path=r".\src\chromedriver.exe"
+    )
+    time.sleep(5)
     # %% Exemplo site da How Bootcamps
     # driver.get("https:\\howedu.com.br")
     # driver.find_element_by_class_name("mc-closeModal").click()
@@ -21,6 +20,7 @@ if cep:
 
     # Exemplo utilização site dos correios
     driver.get("https://buscacepinter.correios.com.br/app/endereco/index.php")
+    time.sleep(5)
     elem_cep = driver.find_element_by_name("endereco")
     elem_cep.clear()
     elem_cep.send_keys(cep)
@@ -33,6 +33,7 @@ if cep:
 
     driver.find_element_by_id("btn_pesquisar").click()
 
+    time.sleep(5)
     #%% Captura dos dados
     logradouro = driver.find_element_by_xpath(
         "/html/body/main/form/div[1]/div[2]/div/div[3]/table/tbody/tr/td[1]"
